@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    color: #282828;
+}
+
+*::first-letter{
+    text-transform: uppercase;
+}
+
+.nav{
+    height: 70px;
+    padding: 0 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: linear-gradient(270deg, #36d1dc, #5b86e5)
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.content{
+    padding: 50px;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: linear-gradient(270deg, #36d1dc, #5b86e5);
+}
+
+.app{
+    min-width: 600px;
+    max-width: 900px;
+    min-height: 400px;
+    padding: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 2rem;
+
+    background-color: #ffffff;
+    
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.app p{
+    max-width: 500px;
+    text-align: center;
+    align-self: center;
+}
+
+.title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.quiz{
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+}
+
+.line{
+    display: flex;
+    cursor: pointer;
+}
+
+.line:hover .label{
+    background-color: #d3d3d3;
+}
+
+.labelIndex{
+    min-width: 30px;
+    min-height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border: 1px solid #282828;
+    background-color: #282828;
+    
+    text-align: center;
+    color: #fff;
+}
+
+.label{
+    min-width: 300px;
+    min-height: 30px;
+    
+    border: 1px solid #282828;
+    
+    text-indent: 5px;
+    font-size: 1.2rem;
+
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.btn{
+    padding: 12px 32px;
+    
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+
+    background-color: #36d1dc;
+
+    font-weight: bold;
+
+    transition: .5s ease;
+}
+
+.btn:hover{
+    background-color: #249097;
+}
+
+.btn-reload{
+    padding: 12px 32px;
+    
+    border: none;
+    border-radius: 5px;
+    
+    background-color: #36d1dc;
+    
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+
+    transition: .5s ease;
+}
+
+.btn-reload:hover{
+    background-color: #249097;
+}
+
+.p{
+    text-align: center;
+}
+
+.label-selected{
+    background-color: gray;
+}

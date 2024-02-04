@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Montserrat', sans-serif;
+
+    list-style-type: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    min-height: 70vh;
+    padding: 50px;
+}
+
+.title{
+    text-align: center;
+    color: #4b4b4b;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.list-container{
+    width: 500px;
+    min-height: 500px;
+    padding: 10px 30px;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.listHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 1rem;
+    
+    height: 60px;
+}
+
+.input{
+    height: 30px;
+    padding: 5px 10px;
+
+    font-size: 1rem;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: #f3f3f3;
+}
+
+.input:focus{
+    border: 1px solid pink;
+}
+
+.btn{
+    height: 30px;
+    padding: 0 25px;
+
+    border: none;
+    border-radius: 5px;
+    background-color: #008cff;
+    color: #fff;
+}
+
+.list-item-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 5px;
+    margin-bottom: 10px;
+
+    color: #282828;
+    background-color: #f3f3f3;
+}
+
+.list-item-container button{
+    padding: 7px 9px;
+
+    border: none;
+    background-color: #008cff;
+    color: #fff;
+}
